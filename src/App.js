@@ -1,15 +1,15 @@
-import './App.css';
-
-import React from 'react'
-import Img from './img/Img';
+import "./App.css";
+import React from "react";
+import Img from "./img/Img";
+import Test from "./comps/Test";
 
 const App = () => {
   return (
     <div>
-      <Img/>
-      
+      {/* <Img/> */}
+      <Test />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
