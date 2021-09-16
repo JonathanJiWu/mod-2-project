@@ -1,13 +1,13 @@
 import "./App.css";
 import React from "react";
 import Img from "./img/Img";
-import Test from "./comps/Test";
+import SearchMovieAutoComp from "./comps/Search";
 
 const App = () => {
   return (
     <div>
       {/* <Img/> */}
-      <Test />
+      <SearchMovieAutoComp/>
     </div>
   );
 };
